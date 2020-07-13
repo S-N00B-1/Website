@@ -1,0 +1,46 @@
+body {
+  background-color: #222222;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+body:visited {
+  color: rgb(223, 172, 19);
+}
+
+body:link {
+  color: #fff;
+}
+
+.TopAngle {
+  position: absolute;
+  width: 1958px;
+  height: 606px;
+  background-image: none;
+  background-color: rgb(223, 172, 19);
+  left: -12px;
+  top: -20px;
+  transform-style: preserve-3d;
+  visibility: visible;
+  overflow: hidden;
+  transform: translate3d(10px, -246px, 0px) rotateZ(168deg) rotateY(1deg) scale3d(1.29, 1.56, 1);
+  z-index: -1;
+}
+.footer{
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+  text-align: left;
+  height: 70px;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.logo img {
+  border-radius: 50%;
+}
+
