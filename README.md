@@ -2,6 +2,7 @@
 An Open Sorce website. Developed with me in mind but that anyone can use and build upon (as long as they attribute the site).
 
 ## Recent Changes:
+* Added Open Graph Meta Tags
 * Added more CSS
 * Adjusted placement of Items in HTML
 
