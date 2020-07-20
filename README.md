@@ -2,6 +2,7 @@
 An Open Sorce website. Developed with me in mind but that anyone can use and build upon (as long as they attribute the site).
 
 ## Recent Changes:
+* Added Custom Discord Embed
 * Overhauled CSS
 * Overhauled HTML
 * Remade Home page
