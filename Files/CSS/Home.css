@@ -1,7 +1,12 @@
 body {
-  background-color: #222222;
-  overflow: hidden;
-  text-decoration: none;
+  letter-spacing: 0.1px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  font-weight: 400;
+  font-size: 17px;
+  color: #c8c8c8;
+  background-color: #7e6539;;
 }
 
 body:visited {
@@ -12,20 +17,6 @@ body:link {
   color: #fff;
 }
 
-.TopAngle {
-  position: absolute;
-  width: 1958px;
-  height: 606px;
-  background-image: none;
-  background-color: rgb(223, 172, 19);
-  left: -12px;
-  top: -20px;
-  transform-style: preserve-3d;
-  visibility: visible;
-  overflow: hidden;
-  transform: translate3d(10px, -246px, 0px) rotateZ(168deg) rotateY(1deg) scale3d(1.29, 1.56, 1);
-  z-index: -1;
-}
 .footer{
   display: flex;
   z-index: 1;
@@ -36,11 +27,41 @@ body:link {
   height: 70px;
   color: #fff;
 }
-ul {
-  list-style-type: none;
-  padding-inline-start: 0px;
+.header {
+  height: 90px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-bottom: dotted 1px #444;
+  background-color: #c5a262;
 }
-.logo img {
-  border-radius: 50%;
+div {
+  display: block;
 }
+.logodiv {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+.filter {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  text-align: right;
+}
+.footdogs {
+  margin: 0 5px;
+}
+.logo {
+  width: 60px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #FFF;
+}
+.Top {
+  display: absolute;
+}
+
+
 
