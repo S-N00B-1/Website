@@ -62,6 +62,14 @@ div {
 .Top {
   display: absolute;
 }
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+  color: #fff; 
+  text-decoration: underline;
+}
 
 
 
