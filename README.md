@@ -2,11 +2,8 @@
 An Open Sorce website. Developed with me in mind but that anyone can use and build upon (as long as they attribute the site).
 
 ## Recent Changes:
-* Added Custom Discord Embed
-* Overhauled CSS
-* Overhauled HTML
-* Remade Home page
-* Remade Open Graph Meta Tags
+* Removed Unused Code
+* Added 404 Page
 
 ## Links:
 ### [Code Of Conduct](https://github.com/SUPERN00Bthefirst/SUPERN00Bthe1Website/blob/master/.github/CODE_OF_CONDUCT.md)
