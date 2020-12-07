@@ -2,6 +2,12 @@
 An Open Sorce website. Developed with me in mind but that anyone can use and build upon (as long as they attribute the site).
 
 ## Recent Changes:
+* Removed Portfolio Link
+* Removed About Link
+* Added Lang Attribute
+* Added Meta Viewport Scale
+* Added Meta Description
+* Added Alt for logo
 * Removed Unused Code
 * Added 404 Page
 
