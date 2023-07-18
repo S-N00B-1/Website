@@ -5,16 +5,16 @@ body {
   font-family: 'Share Tech Mono', Monospace, Courier;
   font-weight: 400;
   font-size: 17px;
-  color: #c8c8c8;
+  color: #ffffff;
   background-color: #050505;;
 }
 
 body:visited {
-  color: rgb(106, 194, 182);
+  color: rgb(78, 161, 150);
 }
 
 body:link {
-  color: #fff;
+  color: rgb(106, 194, 182);
 }
 
 .footer{
@@ -32,7 +32,7 @@ body:link {
   width: 100%;
   margin: auto;
   margin-bottom: 50px;
-  border-bottom: dotted 1px #444;
+  border-bottom: dotted 1px rgb(106, 194, 182);
   background-color: #050505;
 }
 div {
@@ -57,17 +57,16 @@ div {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: solid 1px #FFF;
 }
 .Top {
   display: absolute;
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(106, 194, 182);
 }
 a:hover {
-  color: #fff; 
+  color: rgb(131, 216, 205); 
   text-decoration: underline;
 }
 
