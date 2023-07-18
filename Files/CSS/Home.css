@@ -6,11 +6,11 @@ body {
   font-weight: 400;
   font-size: 17px;
   color: #c8c8c8;
-  background-color: #7e6539;;
+  background-color: #050505;;
 }
 
 body:visited {
-  color: rgb(223, 172, 19);
+  color: rgb(106, 194, 182);
 }
 
 body:link {
@@ -25,7 +25,7 @@ body:link {
   width: 25%;
   text-align: left;
   height: 70px;
-  color: #fff;
+  color: #c8c8c8;
 }
 .header {
   height: 90px;
@@ -33,7 +33,7 @@ body:link {
   margin: auto;
   margin-bottom: 50px;
   border-bottom: dotted 1px #444;
-  background-color: #c5a262;
+  background-color: #050505;
 }
 div {
   display: block;
