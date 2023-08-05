@@ -54,13 +54,14 @@
                     
                         for (let i = 0; i < items.length; i++) {
                             const item = items[i];
+                            const tag = item.getElementsByTagName('description')[0].textContent;
                             const title = item.getElementsByTagName('title')[0].textContent;
                             const link = item.getElementsByTagName('link')[0].textContent;
                         
                             const listItem = document.createElement('li');
                             const linkElement = document.createElement('a');
                             linkElement.href = link;
-                            linkElement.textContent = title;
+                            linkElement.textContent = `${tag} ${title}`;
 
                             listItem.style.cssText += "margin: 15px 0;padding: 0;list-style: none;";
                             listItem.appendChild(linkElement);
