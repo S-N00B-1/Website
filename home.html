@@ -27,17 +27,17 @@
                     <a href="https://s-n00b-1.github.io/Website/home.html"><img class="logo" alt="S_N00B's eye" src="https://s-n00b-1.github.io/Website/Files/Images/Logo.webp"></a>
                     <div class="filter">
                     <a href="https://s-n00b-1.github.io/Website/home.html">HOME</a>
-                    <span class="footdogs"  style="color: white; text-decoration: none;">  / </span>
+                    <span class="footdogs">  / </span>
                     <a href="https://www.youtube.com/@S_N00B">Youtube</a>
-                    <span class="footdogs"  style="color: white; text-decoration: none;">  / </span>
+                    <span class="footdogs">  / </span>
                     <a href="https://mastodon.social/@S_N00B">Mastodon</a>
                     </div>
                 </div>
             </div>
         </div>
         <!--Main Content-->
-        <div class="Top" style="max-width: 900px;margin: auto;padding: 0 20px;">
-           <div id="content" style="max-width:100%;margin:auto;"><ul id="rssFeed" style="display: block;list-style-type: disc;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;padding-inline-start: 40px;">
+        <div class="Top">
+           <div class="content"><ul class="rssFeed">
             <span>Welcome to S_N00B Site:</span>
             <br>
             <br>  
@@ -52,8 +52,8 @@
                         const parser = new DOMParser();
                         const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
                         const items = xmlDoc.getElementsByTagName('item');
-                    
-                        const rssFeedList = document.getElementById('rssFeed');
+                        
+                        const rssFeedList = document.getElementsByClassName('rssFeed');
                     
                         for (let i = 0; i < items.length; i++) {
                             const item = items[i];
@@ -66,7 +66,6 @@
                             linkElement.href = link;
                             linkElement.textContent = `${tag} ${title}`;
 
-                            listItem.style.cssText += "margin: 15px 0;padding: 0;list-style: none;";
                             listItem.appendChild(linkElement);
                             rssFeedList.appendChild(listItem);
                         }

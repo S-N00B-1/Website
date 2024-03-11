@@ -27,6 +27,7 @@ body:link {
   height: 70px;
   color: #c8c8c8;
 }
+
 .header {
   height: 90px;
   width: 100%;
@@ -35,32 +36,75 @@ body:link {
   border-bottom: dotted 1px rgb(106, 194, 182);
   background-color: #050505;
 }
+
 div {
   display: block;
 }
+
 .logodiv {
   max-width: 900px;
   margin: auto;
   padding: 0 20px;
 }
+
 .filter {
   display: block;
   margin-bottom: 30px;
   margin-top: -50px;
   text-align: right;
 }
+
 .footdogs {
   margin: 0 5px;
+  color: white; 
+  text-decoration: none;
 }
+
 .logo {
   width: 60px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .Top {
   display: absolute;
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
 }
+
+.content {
+  max-width:100%;
+  margin:auto;
+}
+
+.rssFeed {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.unordered {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+} 
+
+li {
+  margin: 15px 0;
+  padding: 0;
+  list-style: none;
+}
+
 a {
     text-decoration: none;
     color: rgb(106, 194, 182);
