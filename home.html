@@ -37,7 +37,7 @@
         </div>
         <!--Main Content-->
         <div class="Top">
-           <div class="content"><ul class="rssFeed">
+           <div class="content"><ul id="rssFeed" class="rssFeed">
             <span>Welcome to S_N00B Site:</span>
             <br>
             <br>  
@@ -53,7 +53,7 @@
                         const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
                         const items = xmlDoc.getElementsByTagName('item');
                         
-                        const rssFeedList = document.getElementsByClassName('rssFeed');
+                        const rssFeedList = document.getElementById('rssFeed');
                     
                         for (let i = 0; i < items.length; i++) {
                             const item = items[i];
