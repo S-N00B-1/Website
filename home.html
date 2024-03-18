@@ -52,7 +52,6 @@
                         const parser = new DOMParser();
                         const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
                         const items = xmlDoc.getElementsByTagName('item');
-                        const id = item.getElementsByTagName('id')[0].textContent;
                         
                         const rssFeedList = document.getElementById('rssFeed');
                     
