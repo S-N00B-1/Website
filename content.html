@@ -65,6 +65,7 @@
             
                             if (window.location.href.includes(id)) {
                                 const spanElement = document.createElement('span');
+                                spanElement.textContent = `${title}`
                                 contentList.appendChild(spanElement);
 
                                 if (tag === '[VIDEO]') {
@@ -73,7 +74,7 @@
                                     const embedElement = document.createElement('iframe');
                                     embedElement.src = `https://www.youtube.com/embed/${videoId}`;
                                     embedElement.width = "100%";
-                                    embedElement.height = "56%"
+                                    embedElement.style.aspectRatio = "16/9"
                                     embedElement.allowFullscreen = true;
                                     embedElement.title = title;
                                     
