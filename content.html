@@ -62,7 +62,6 @@
                             const title = item.getElementsByTagName('title')[0].textContent;
                             const link = item.getElementsByTagName('link')[0].textContent;
                             const id = item.getElementsByTagName('id')[0].textContent;
-                            const image = item.getElementsByTagName('image')[0].textContent;
                             const embedimage = item.getElementsByTagName('embedimage')[0].textContent;
             
                             if (window.location.href.includes(id)) {
@@ -95,6 +94,7 @@
                                     listItem.appendChild(embedElement);
                                     contentList.appendChild(listItem);
                                 } else if (tag === '[DOWNLOAD]') {
+                                    const image = item.getElementsByTagName('image')[0].textContent;
                                     const listItemImage = document.createElement('li');
                                     const previewImage = document.createElement('img');
                                     
