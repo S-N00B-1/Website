@@ -38,8 +38,6 @@
         <!--Main Content-->
         <div class="Top">
            <div class="content"><ul id="content" class="rssFeed">
-            <br>
-            <br>  
             </ul>
             <script>
                 const rssFeedURL = 'https://s-n00b-1.github.io/Website/Files/feed.xml';
@@ -78,8 +76,11 @@
                                 }
 
                                 const spanElement = document.createElement('span');
+                                const lineBreak = documetn.createElement('br');
                                 spanElement.textContent = `${title}`;
                                 contentList.appendChild(spanElement);
+                                contentList.appendChild(lineBreak);
+                                contentList.appendChild(lineBreak);
 
                                 if (tag === '[VIDEO]') {
                                     const listItem = document.createElement('li');
