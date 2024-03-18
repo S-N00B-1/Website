@@ -8,120 +8,143 @@
 
   <item>
     <title>The Scientist who cooks</title>
+    <id>scientist-who-cooks</id>
     <link>https://youtu.be/xv75trToVno</link>
     <description>[VIDEO]</description>
   </item>
   
   <item>
     <title>Remastering a Minecraft Battle map</title>
+    <id>remastering-battle-map</id>
     <link>https://youtu.be/nCu2vGHOd-I</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Ave Meowria</title>
+    <id>ave-meowria</id>
     <link>https://youtu.be/65y_K59s0f0</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Obligatory Spook 2</title>
+    <id>halloween-2</id>
     <link>https://youtu.be/ftklrA0xfHw</link>
     <description>[VIDEO]</description>
   </item>
   
   <item>
     <title>Promotion Granted</title>
+    <id>drg-voiceover</id>
     <link>https://youtu.be/801VAIvdP6I</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Improved Booster Mechanics in Java</title>
+    <id>glide-showcase-2</id>
     <link>https://youtu.be/0doAUwszoAg</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Glide Minigame Test in Java</title>
+    <id>glide-showcase-1</id>
     <link>https://youtu.be/9T6f5PQkH6s</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>LEM Voice Chat</title>
+    <id>live-min3mast3r-reaction</id>
     <link>https://youtu.be/mUcuqX7EVeg</link>
     <description>[VIDEO]</description>
   </item>
 
   <item>
     <title>Outride Obama Widescreen Mod Release</title>
+    <id>widescreen-mod</id>
     <link>https://youtu.be/0bnhk3NH7t8</link>
     <description>[VIDEO]</description>
   </item>
 
   <item>
     <title>Glide Ghost Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/GlideGhost.html</link>
+    <id>figura-glide-shost</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/GlideGhost.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>Yoda Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/Yoda.html</link>
+    <id>figura-yoda</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Yoda.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>Baby Ghast Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/BabyGhast.html</link>
+    <id>figura-ghast</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/BabyGhast.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>LEM Trailer</title>
+    <id>LEM-trailer</id>
     <link>https://youtu.be/dwQI2Pq77TU</link>
     <description>[VIDEO]</description>
   </item>
   <item>
-    <title>0x10c</title>
-    <link>https://youtube.com/playlist?list=PLAFqt5AAxMEQ_FkL52OjcjLq1iqKiII_b</link>
-    <description>[PLAYLIST]</description>
-  </item>
-  <item>
     <title>I Participated in a Minecraft Render Challenge</title>
+    <id>render-challenge</id>
     <link>https://youtu.be/VwBqvjVvHyU</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Warden &amp; Sniffer Plushie</title>
+    <id>plushies</id>
     <link>https://youtube.com/shorts/X9_xzVJAAPo</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Gordon Freeman Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/Gordon.html</link>
+    <id>figura-freeman</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Gordon.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>Default Skins Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/DefaultSkins.html</link>
+    <id>figura-skipack</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/DefaultSkins.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>G-Man Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/G-Man.html</link>
+    <id>figura-gman</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/G-Man.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>Mapbot Figura Avatar</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/Mapbot.html</link>
+    <id>figura-mapbot</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/MapbotV2.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
-    <title>Steve &amp; Rana Figura Avatars</title>
-    <link>https://s-n00b-1.github.io/Website/Entries/SteveRana.html</link>
+    <title>Rana Figura Avatar</title>
+    <id>figura-classic-rana</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Rana.zip</link>
+    <description>[DOWNLOAD]</description>
+  </item>
+  <item>
+    <title>Classic Steve Figura Avatar</title>
+    <id>figura-classic-steve</id>
+    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Steve.zip</link>
     <description>[DOWNLOAD]</description>
   </item>
   <item>
     <title>The Machine</title>
+    <id>the-machine</id>
     <link>https://youtu.be/gAxLNgMzAGA</link>
     <description>[VIDEO]</description>
   </item>
   <item>
     <title>Soon™</title>
+    <id>soontm</id>
     <link>https://youtu.be/cPHWg9ovr6A</link>
     <description>[VIDEO]</description>
   </item>

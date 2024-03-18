@@ -37,45 +37,72 @@
         </div>
         <!--Main Content-->
         <div class="Top">
-           <div class="content"><ul id="rssFeed" class="rssFeed">
-            <span>Welcome to S_N00B Site:</span>
+           <div class="content"><ul id="content" class="rssFeed">
             <br>
             <br>  
             </ul>
             <script>
                 const rssFeedURL = 'https://s-n00b-1.github.io/Website/Files/feed.xml';
             
-                async function displayRSSFeed() {
+                async function displayContent() {
                     try {
                         const response = await fetch(rssFeedURL);
                         const xmlData = await response.text();
                         const parser = new DOMParser();
                         const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
                         const items = xmlDoc.getElementsByTagName('item');
-                        const id = item.getElementsByTagName('id')[0].textContent;
-                        
-                        const rssFeedList = document.getElementById('rssFeed');
-                    
+            
+                        const contentList = document.getElementById('content');
+            
+                        let entryExists = false; 
+            
                         for (let i = 0; i < items.length; i++) {
                             const item = items[i];
-                            const tag = item.getElementsByTagName('description')[0].textContent;
+                            const tag = item.getElementsByTagName('description')[0].textContent.trim();
                             const title = item.getElementsByTagName('title')[0].textContent;
-                            const link = item.getElementsByTagName('id')[0].textContent;
+                            const link = item.getElementsByTagName('link')[0].textContent;
+                            const id = item.getElementsByTagName('id')[0].textContent;
+            
+                            if (window.location.href.includes(id)) {
+                                if (tag === '[VIDEO]') {
+                                    const videoId = link.split('/').pop();
+                                    const embedElement = document.createElement('iframe');
+                                    embedElement.src = `https://www.youtube.com/embed/${videoId}`;
+                                    embedElement.width = "50%";
+                                    embedElement.allowFullscreen = true;
+                                    embedElement.title = title;
+            
+                                    contentList.innerHTML = '';
+                                    contentList.appendChild(embedElement);
+                                } else if (tag === '[DOWNLOAD]') {
+                                    const downloadLink = document.createElement('a');
+                                    downloadLink.href = link;
+                                    downloadLink.textContent = 'DOWNLOAD';
+            
+                                    contentList.innerHTML = '';
+                                    contentList.appendChild(downloadLink);
+                                }
+            
                         
-                            const listItem = document.createElement('li');
-                            const linkElement = document.createElement('a');
-                            linkElement.href = `https://s-n00b-1.github.io/Website/content?id=${id}`;
-                            linkElement.textContent = `${tag} ${title}`;
-
-                            listItem.appendChild(linkElement);
-                            rssFeedList.appendChild(listItem);
+                                const spanElement = document.createElement('span');
+                                spanElement.textContent = title;
+                                contentList.insertBefore(spanElement, contentList.firstChild);
+            
+                                entryExists = true;
+                                break;
+                            }
+                        }
+            
+                        if (!entryExists) {
+                            window.location.href = 'https://s-n00b-1.github.io/Website/404'; // Replace with your actual 404 page URL
                         }
                     } catch (error) {
                         console.error('Error fetching RSS feed:', error);
                     }
                 }
-                displayRSSFeed();
-            </script>
+            
+                displayContent();
+            </script>            
             </div>
         </div>
     </body>
