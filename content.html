@@ -64,29 +64,30 @@
                             const id = item.getElementsByTagName('id')[0].textContent;
             
                             if (window.location.href.includes(id)) {
+                                const spanElement = document.createElement('span');
+                                contentList.appendChild(spanElement);
+
                                 if (tag === '[VIDEO]') {
+                                    const listItem = document.createElement('li')
                                     const videoId = link.split('/').pop();
                                     const embedElement = document.createElement('iframe');
                                     embedElement.src = `https://www.youtube.com/embed/${videoId}`;
-                                    embedElement.width = "50%";
+                                    embedElement.width = "100%";
+                                    embedElement.height = "56%"
                                     embedElement.allowFullscreen = true;
                                     embedElement.title = title;
-            
-                                    contentList.innerHTML = '';
-                                    contentList.appendChild(embedElement);
+                                    
+                                    listItem.appendChild(embedElement)
+                                    contentList.appendChild(listItem);
                                 } else if (tag === '[DOWNLOAD]') {
+                                    const listItem = document.createElement('li')
                                     const downloadLink = document.createElement('a');
                                     downloadLink.href = link;
                                     downloadLink.textContent = 'DOWNLOAD';
-            
-                                    contentList.innerHTML = '';
-                                    contentList.appendChild(downloadLink);
+                                    
+                                    listItem.appendChild(downloadLink)
+                                    contentList.appendChild(listItem);
                                 }
-            
-                        
-                                const spanElement = document.createElement('span');
-                                spanElement.textContent = title;
-                                contentList.insertBefore(spanElement, contentList.firstChild);
             
                                 entryExists = true;
                                 break;
