@@ -10,11 +10,11 @@
         <meta name="author" content="S_N00B">
         <meta name="Description" content="A Generic Website for S_N00B's needs.">
         <meta name="theme-color" content="#008080">
-        <meta content="S_N00B" property="og:title">
+        <meta property="og:title">
         <meta content="S_N00B" property="og:site_name">
-        <meta content="https://s-n00b-1.github.io/Website/Files/Images/Icon.png?width=300&amp;height=300" property="og:image">
+        <meta property="og:image">
         <link type="application/json+oembed" href="https://s-n00b-1.github.io/Website/Files/oembed.json">
-        <title>S_N00B | Home</title>
+        <title>S_N00B | Content</title>
         <link rel="stylesheet" href="https://s-n00b-1.github.io/Website/Files/CSS/Home.css">
 </head>
     <!--Real Content-->
@@ -62,31 +62,55 @@
                             const title = item.getElementsByTagName('title')[0].textContent;
                             const link = item.getElementsByTagName('link')[0].textContent;
                             const id = item.getElementsByTagName('id')[0].textContent;
+                            const image = item.getElementsByTagName('image')[0].textContent;
+                            const embedimage = item.getElementsByTagName('embedimage')[0].textContent;
             
                             if (window.location.href.includes(id)) {
+                                document.title = `S_N00B | ${title}`;
+
+                                const metaImage = document.querySelector('meta[property="og:image"]');
+                                if (metaImage) {
+                                    metaImage.content = embedimage;
+                                }
+
+                                const metaTitle = document.querySelector('meta[property="og:title"]');
+                                if (metaTitle) {
+                                    metaTitle.content = title;
+                                }
+
                                 const spanElement = document.createElement('span');
-                                spanElement.textContent = `${title}`
+                                spanElement.textContent = `${title}`;
                                 contentList.appendChild(spanElement);
 
                                 if (tag === '[VIDEO]') {
-                                    const listItem = document.createElement('li')
+                                    const listItem = document.createElement('li');
                                     const videoId = link.split('/').pop();
                                     const embedElement = document.createElement('iframe');
                                     embedElement.src = `https://www.youtube.com/embed/${videoId}`;
                                     embedElement.width = "100%";
-                                    embedElement.style.aspectRatio = "16/9"
+                                    embedElement.style.aspectRatio = "16/9";
                                     embedElement.allowFullscreen = true;
                                     embedElement.title = title;
                                     
-                                    listItem.appendChild(embedElement)
+                                    listItem.appendChild(embedElement);
                                     contentList.appendChild(listItem);
                                 } else if (tag === '[DOWNLOAD]') {
-                                    const listItem = document.createElement('li')
+                                    const listItemImage = document.createElement('li');
+                                    const previewImage = document.createElement('img');
+                                    
+                                    previewImage.src = image;
+                                    previewImage.className = 'logo';
+                                    
+                                    listItemImage.appendChild(previewImage);
+                                    contentList.appendChild(listItemImage)
+
+                                    const listItem = document.createElement('li');
                                     const downloadLink = document.createElement('a');
+
                                     downloadLink.href = link;
                                     downloadLink.textContent = 'DOWNLOAD';
-                                    
-                                    listItem.appendChild(downloadLink)
+
+                                    listItem.appendChild(downloadLink);
                                     contentList.appendChild(listItem);
                                 }
             
