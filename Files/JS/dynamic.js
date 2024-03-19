@@ -47,6 +47,7 @@ async function displayContent() {
                     embedElement.src = `https://www.youtube.com/embed/${videoId}`;
                     embedElement.width = "100%";
                     embedElement.style.aspectRatio = "16/9";
+                    embedElement.style.border = "0";
                     embedElement.allowFullscreen = true;
                     embedElement.title = title;
                     

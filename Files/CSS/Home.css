@@ -123,6 +123,7 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .Top {
     max-width: 83%;
+    padding: 0 0px;
   }
   .logodiv {
     max-width: 83%;
