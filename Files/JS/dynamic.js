@@ -81,7 +81,14 @@ async function displayContent() {
         }
         
         if (!entryExists) {
-            window.location.href = 'https://s-n00b-1.github.io/Website/404';
+            document.title = `S_N00B | 404`;
+            const listItem = document.createElement('li');
+            const errortext = document.createElement('span');
+
+            errortext.textContent = ' 404 | Either the URL is wrong, or I deleted it. Either way, not here.';
+
+            listItem.appendChild(errortext);
+            contentList.appendChild(listItem);
         }
     } catch (error) {
         console.error('Error fetching RSS feed:', error);
