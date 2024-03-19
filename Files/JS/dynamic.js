@@ -65,7 +65,7 @@ async function displayContent() {
 
                 try {
                     const descriptionListItem = document.createElement('li');
-                    const descriptionTextHolder = document.createElement('a');
+                    const descriptionTextHolder = document.createElement('pre');
 
                     descriptionTextHolder.textContent = `${description}`;
 
