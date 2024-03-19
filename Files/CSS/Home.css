@@ -17,6 +17,10 @@ body:link {
   color: rgb(106, 194, 182);
 }
 
+span {
+  overflow-x: auto;
+}
+
 .footer{
   display: flex;
   z-index: 1;
