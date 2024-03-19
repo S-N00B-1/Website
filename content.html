@@ -18,120 +18,16 @@
         <link rel="stylesheet" href="https://s-n00b-1.github.io/Website/Files/CSS/Home.css">
 </head>
     <!--Real Content-->
-    <body data-gr-c-s-loaded="true">
-        <!--Navigation Bar-->
-        <div class="navBar">
-            <!--Navigation Buttons-->
-            <div id="header" class="header">
-                <div class="logodiv">
-                    <a href="https://s-n00b-1.github.io/Website/home.html"><img class="logo" alt="S_N00B's eye" src="https://s-n00b-1.github.io/Website/Files/Images/Logo.webp"></a>
-                    <div class="filter">
-                    <a href="https://s-n00b-1.github.io/Website/home.html">HOME</a>
-                    <span class="footdogs">  / </span>
-                    <a href="https://www.youtube.com/@S_N00B">Youtube</a>
-                    <span class="footdogs">  / </span>
-                    <a href="https://mastodon.social/@S_N00B">Mastodon</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <body>
         <!--Main Content-->
         <div class="Top">
-           <div class="content"><ul id="content" class="rssFeed">
-            </ul>
-            <script>
-                const rssFeedURL = 'https://s-n00b-1.github.io/Website/Files/feed.xml';
-            
-                async function displayContent() {
-                    try {
-                        const response = await fetch(rssFeedURL);
-                        const xmlData = await response.text();
-                        const parser = new DOMParser();
-                        const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
-                        const items = xmlDoc.getElementsByTagName('item');
-            
-                        const contentList = document.getElementById('content');
-            
-                        let entryExists = false; 
-            
-                        for (let i = 0; i < items.length; i++) {
-                            const item = items[i];
-                            const tag = item.getElementsByTagName('description')[0].textContent.trim();
-                            const title = item.getElementsByTagName('title')[0].textContent;
-                            const link = item.getElementsByTagName('link')[0].textContent;
-                            const id = item.getElementsByTagName('id')[0].textContent;
-                            const embedimage = item.getElementsByTagName('embedimage')[0].textContent;
-            
-                            if (window.location.href.includes(id)) {
-                                document.title = `S_N00B | ${title}`;
-
-                                const metaImage = document.querySelector('meta[property="og:image"]');
-                                if (metaImage) {
-                                    metaImage.content = embedimage;
-                                }
-
-                                const metaTitle = document.querySelector('meta[property="og:title"]');
-                                if (metaTitle) {
-                                    metaTitle.content = title;
-                                }
-
-                                const spanElement = document.createElement('span');
-                                const lineBreak = document.createElement('br');
-                                spanElement.textContent = `${title}`;
-                                contentList.appendChild(spanElement);
-                                contentList.appendChild(lineBreak);
-                                contentList.appendChild(lineBreak);
-
-                                if (tag === '[VIDEO]') {
-                                    const listItem = document.createElement('li');
-                                    const videoId = link.split('/').pop();
-                                    const embedElement = document.createElement('iframe');
-                                    embedElement.src = `https://www.youtube.com/embed/${videoId}`;
-                                    embedElement.width = "100%";
-                                    embedElement.style.aspectRatio = "16/9";
-                                    embedElement.allowFullscreen = true;
-                                    embedElement.title = title;
-                                    
-                                    listItem.appendChild(embedElement);
-                                    contentList.appendChild(listItem);
-                                } else if (tag === '[DOWNLOAD]') {
-                                    const image = item.getElementsByTagName('image')[0].textContent;
-                                    const listItemImage = document.createElement('li');
-                                    const previewImage = document.createElement('img');
-                                    
-                                    previewImage.src = image;
-                                    previewImage.className = 'logo';
-                                    
-                                    listItemImage.appendChild(previewImage);
-                                    contentList.appendChild(listItemImage)
-
-                                    const listItem = document.createElement('li');
-                                    const downloadLink = document.createElement('a');
-
-                                    downloadLink.href = link;
-                                    downloadLink.textContent = 'DOWNLOAD';
-
-                                    listItem.appendChild(downloadLink);
-                                    contentList.appendChild(listItem);
-                                }
-            
-                                entryExists = true;
-                                break;
-                            }
-                        }
-            
-                        if (!entryExists) {
-                            window.location.href = 'https://s-n00b-1.github.io/Website/404'; // Replace with your actual 404 page URL
-                        }
-                    } catch (error) {
-                        console.error('Error fetching RSS feed:', error);
-                    }
-                }
-            
-                displayContent();
-            </script>            
+            <div class="content">
+                <ul id="content" class="rssFeed">
+                </ul>         
             </div>
         </div>
+        <script src="https://s-n00b-1.github.io/Website/Files/JS/navbar.js"></script>
+        <script src="https://s-n00b-1.github.io/Website/Files/JS/dynamic.js"></script>
     </body>
 </html>
 <!--Document End-->
