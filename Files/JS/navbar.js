@@ -4,7 +4,7 @@ async function displayNavbar() {
     try {
         const response = await fetch(navbar);
         const htmlData = await response.text();
-        document.insertBefore(htmlData, document.firstChild);
+        document.body.insertAdjacentHTML('afterbegin', htmlData);
     } catch (error) {
         console.error('Error fetching Navbar:', error);
     }
