@@ -64,13 +64,13 @@ async function displayContent() {
                 }
 
                 try {
-                    const descriptionListItem = document.createElement('li');
+                    const descriptionSpanItem = document.createElement('span');
                     const descriptionTextHolder = document.createElement('pre');
 
                     descriptionTextHolder.textContent = `${description}`;
 
-                    descriptionListItem.appendChild(descriptionTextHolder);
-                    contentList.appendChild(descriptionListItem);
+                    descriptionSpanItem.appendChild(descriptionTextHolder);
+                    contentList.appendChild(descriptionSpanItem);
                 } catch (error) {
                     console.error('Error fetching entry Description:', error);
                 }
