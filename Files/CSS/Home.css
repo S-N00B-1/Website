@@ -5,16 +5,6 @@ body {
   font-family: 'Share Tech Mono', Monospace, Courier;
   font-weight: 400;
   font-size: 17px;
-  color: #ffffff;
-  background-color: #050505;;
-}
-
-body:visited {
-  color: rgb(78, 161, 150);
-}
-
-body:link {
-  color: rgb(106, 194, 182);
 }
 
 span {
@@ -37,8 +27,6 @@ span {
   width: 100%;
   margin: auto;
   margin-bottom: 50px;
-  border-bottom: dotted 1px rgb(106, 194, 182);
-  background-color: #050505;
 }
 
 div {
@@ -60,11 +48,17 @@ div {
 
 .footdogs {
   margin: 0 5px;
-  color: white; 
   text-decoration: none;
 }
 
 .logo {
+  width: 60px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image {
   width: 60px;
   margin: auto;
   margin-top: 10px;
@@ -111,15 +105,6 @@ li {
   list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(106, 194, 182);
-}
-a:hover {
-  color: rgb(131, 216, 205); 
-  text-decoration: underline;
-}
-
 @media only screen and (max-width: 600px) {
   .Top {
     max-width: 83%;
@@ -137,5 +122,69 @@ a:hover {
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  body {
+    color: #ffffff;
+    background-color: #050505;;
+  }
+  body:visited {
+    color: rgb(78, 161, 150);
+  }
+  
+  body:link {
+    color: rgb(106, 194, 182);
+  }
+  a {
+    text-decoration: none;
+    color: rgb(106, 194, 182);
+  }
+  a:hover {
+    color: rgb(131, 216, 205); 
+    text-decoration: underline;
+  }
+  .logo {
+    filter: invert(0);
+  }
+  .footdogs {
+    color: #ffffff; 
+  }
+  .header {
+    border-bottom: dotted 1px rgb(106, 194, 182);
+    background-color: #050505;
+  }
+}
+
+@media (prefers-color-scheme:light) {
+  body {
+    color: #050505;
+    background-color: #ffffff;;
+  }
+  body:visited {
+    color: rgb(45, 119, 109);
+  }
+  
+  body:link {
+    color: rgb(78, 161, 150);
+  }
+  a {
+    text-decoration: none;
+    color: rgb(78, 161, 150);
+  }
+  a:hover {
+    color: rgb(131, 216, 205); 
+    text-decoration: underline;
+  }
+  .logo {
+    filter: invert(1);
+  }
+  .footdogs {
+    color: #050505; 
+  }
+  .header {
+    border-bottom: dotted 1px rgb(78, 161, 150);
+    background-color: #ffffff;
   }
 }

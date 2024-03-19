@@ -35,7 +35,7 @@ async function displayContent() {
                 const previewImage = document.createElement('img');
                 
                 previewImage.src = image;
-                previewImage.className = 'logo';
+                previewImage.className = 'image';
                 
                 listItemImage.appendChild(previewImage);
                 contentList.appendChild(listItemImage)
