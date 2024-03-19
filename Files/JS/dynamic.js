@@ -16,22 +16,13 @@ async function displayContent() {
             const item = items[i];
             const tag = item.getElementsByTagName('description')[0].textContent.trim();
             const title = item.getElementsByTagName('title')[0].textContent;
-            const link = item.getElementsByTagName('link')[0].textContent;
             const id = item.getElementsByTagName('id')[0].textContent;
-            const embedimage = item.getElementsByTagName('embedimage')[0].textContent;
+            const link = item.getElementsByTagName('link')[0].textContent;
+            const image = item.getElementsByTagName('image')[0].textContent;
+            const description = item.getElementsByTagName('text')[0].textContent;
             
             if (window.location.href.includes(id)) {
                 document.title = `S_N00B | ${title}`;
-
-                const metaImage = document.querySelector('meta[property="og:image"]');
-                if (metaImage) {
-                    metaImage.content = embedimage;
-                }
-
-                const metaTitle = document.querySelector('meta[property="og:title"]');
-                if (metaTitle) {
-                    metaTitle.content = title;
-                }
 
                 const spanElement = document.createElement('span');
                 const lineBreak = document.createElement('br');
@@ -39,6 +30,15 @@ async function displayContent() {
                 contentList.appendChild(spanElement);
                 contentList.appendChild(lineBreak);
                 contentList.appendChild(lineBreak);
+
+                const listItemImage = document.createElement('li');
+                const previewImage = document.createElement('img');
+                
+                previewImage.src = image;
+                previewImage.className = 'logo';
+                
+                listItemImage.appendChild(previewImage);
+                contentList.appendChild(listItemImage)
 
                 if (tag === '[VIDEO]') {
                     const listItem = document.createElement('li');
@@ -53,16 +53,6 @@ async function displayContent() {
                     listItem.appendChild(embedElement);
                     contentList.appendChild(listItem);
                 } else if (tag === '[DOWNLOAD]') {
-                    const image = item.getElementsByTagName('image')[0].textContent;
-                    const listItemImage = document.createElement('li');
-                    const previewImage = document.createElement('img');
-                    
-                    previewImage.src = image;
-                    previewImage.className = 'logo';
-                    
-                    listItemImage.appendChild(previewImage);
-                    contentList.appendChild(listItemImage)
-
                     const listItem = document.createElement('li');
                     const downloadLink = document.createElement('a');
 
@@ -71,6 +61,18 @@ async function displayContent() {
 
                     listItem.appendChild(downloadLink);
                     contentList.appendChild(listItem);
+                }
+
+                try {
+                    const descriptionListItem = document.createElement('li');
+                    const descriptionTextHolder = document.createElement('a');
+
+                    descriptionTextHolder.textContent = `${description}`;
+
+                    descriptionListItem.appendChild(descriptionTextHolder);
+                    contentList.appendChild(descriptionListItem);
+                } catch (error) {
+                    console.error('Error fetching entry Description:', error);
                 }
                 
                 entryExists = true;
