@@ -72,6 +72,7 @@ div {
   max-width: 50%;
   margin: auto;
   padding: 0 20px;
+  padding-inline-start: 0;
 }
 
 .content {
@@ -96,7 +97,7 @@ div {
   margin-block-end: 1em;
   margin-inline-start: 0%;
   margin-inline-end: 0%;
-  padding-inline-start: 0%;
+  padding-inline-start: inherit;
 } 
 
 li {
