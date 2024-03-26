@@ -1,38 +1,16 @@
-body {
-  letter-spacing: 0.1px;
-  padding: 0;
-  margin: 0;
-  font-family: 'Share Tech Mono', Monospace, Courier;
-  font-weight: 400;
-  font-size: 17px;
-}
-
-.footer{
-  display: flex;
-  z-index: 1;
-  position: absolute;
-  bottom: 0;
-  width: 25%;
-  text-align: left;
-  height: 70px;
-  color: #c8c8c8;
-}
-
 .header {
   height: 90px;
   width: 100%;
   margin: auto;
   margin-bottom: 50px;
-}
-
-div {
-  display: block;
+  transition: background-color 1s, color 1s;
 }
 
 .logodiv {
   max-width: 50%;
   margin: auto;
   padding: 0 20px;
+  transition: max-width 1s;
 }
 
 .filter {
@@ -42,23 +20,18 @@ div {
   text-align: right;
 }
 
-.footdogs {
-  margin: 0 5px;
-  text-decoration: none;
-}
-
 .logo {
   width: 60px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: filter 1s;
 }
 
-.image {
-  width: 60px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.footdogs {
+  margin: 0 5px;
+  text-decoration: none;
+  transition: color 1s;
 }
 
 .Top {
@@ -67,11 +40,19 @@ div {
   margin: auto;
   padding: 0 20px;
   padding-inline-start: 0;
+  transition: max-width 1s;
 }
 
 .content {
   max-width:100%;
   margin:auto;
+}
+
+.image {
+  width: 60px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .rssFeed {
@@ -94,6 +75,28 @@ div {
   padding-inline-start: inherit;
 } 
 
+body {
+  letter-spacing: 0.1px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  font-weight: 400;
+  font-size: 17px;
+  transition: background-color 1s, color 1s;
+}
+
+a {
+   transition: color 1s;
+}
+
+span {
+   transition: color 1s;
+}
+
+div {
+  display: block;
+}
+
 li {
   margin: 15px 0;
   padding: 0;
@@ -106,10 +109,6 @@ pre {
 }
 
 @media only screen and (max-width: 800px) {
-  .Top {
-    max-width: 83%;
-    padding: 0 0px;
-  }
   .logodiv {
     max-width: 83%;
   }
@@ -123,9 +122,23 @@ pre {
     margin-top: 0px;
     text-align: center;
   }
+  .Top {
+    max-width: 83%;
+    padding: 0 0px;
+  }
 }
 
 @media (prefers-color-scheme:dark) {
+  .header {
+    border-bottom: dotted 1px rgb(106, 194, 182);
+    background-color: #050505;
+  }
+  .logo {
+    filter: invert(0);
+  }
+  .footdogs {
+    color: #ffffff; 
+  }
   body {
     color: #ffffff;
     background-color: #050505;;
@@ -145,19 +158,19 @@ pre {
     color: rgb(131, 216, 205); 
     text-decoration: underline;
   }
-  .logo {
-    filter: invert(0);
-  }
-  .footdogs {
-    color: #ffffff; 
-  }
-  .header {
-    border-bottom: dotted 1px rgb(106, 194, 182);
-    background-color: #050505;
-  }
 }
 
 @media (prefers-color-scheme:light) {
+  .header {
+    border-bottom: dotted 1px rgb(78, 161, 150);
+    background-color: #ffffff;
+  }
+  .logo {
+    filter: invert(1);
+  }
+  .footdogs {
+    color: #050505; 
+  }
   body {
     color: #050505;
     background-color: #ffffff;;
@@ -176,15 +189,5 @@ pre {
   a:hover {
     color: rgb(131, 216, 205); 
     text-decoration: underline;
-  }
-  .logo {
-    filter: invert(1);
-  }
-  .footdogs {
-    color: #050505; 
-  }
-  .header {
-    border-bottom: dotted 1px rgb(78, 161, 150);
-    background-color: #ffffff;
   }
 }
