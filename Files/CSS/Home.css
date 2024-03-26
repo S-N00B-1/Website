@@ -7,10 +7,6 @@ body {
   font-size: 17px;
 }
 
-span {
-  overflow-x: auto;
-}
-
 .footer{
   display: flex;
   z-index: 1;
@@ -71,7 +67,6 @@ div {
   margin: auto;
   padding: 0 20px;
   padding-inline-start: 0;
-  overflow-x: auto;
 }
 
 .content {
@@ -103,6 +98,11 @@ li {
   margin: 15px 0;
   padding: 0;
   list-style: none;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 @media only screen and (max-width: 600px) {
