@@ -31,6 +31,22 @@
   -->
 
   <item>
+    <title>Dynamic Booster Creation</title>
+    <id>dyn-boosts</id>
+    <image></image>
+    <link>https://youtu.be/qfwKXMK2UgU</link>
+    <description>[VIDEO]</description>
+    <text>
+Quick demo of dynamically creating a booster.
+The previous system used command blocks, now boosters
+can be created dynamically, improving map creation alot.
+
+NOTHING SHOWN IS READY FOR PLAYERS.
+THIS IS NOT PUBLIC YET. 
+    </text>
+  </item>
+
+  <item>
     <title>Wait, what's the item set?</title>
     <id>high-power</id>
     <image></image>
