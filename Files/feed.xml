@@ -31,6 +31,24 @@
   -->
 
   <item>
+    <title>Cavern Flythrough</title>
+    <id>cavern-flythrough</id>
+    <image></image>
+    <link>https://youtu.be/bTdi5xvUTOI</link>
+    <description>[VIDEO]</description>
+    <text>
+Demo of Cavern in Minecraft: Java Edition
+THIS IS NOT PUBLIC, RELEASE DATA UNDECIDED
+
+I've placed in all the thermals & boosts, next up is
+checkpoints and barriers.
+
+Music:
+       Glide (Map 1) - Gareth Coker
+    </text>
+  </item>
+
+  <item>
     <title>Dynamic Booster Creation</title>
     <id>dyn-boosts</id>
     <image></image>
