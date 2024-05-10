@@ -29,6 +29,23 @@
     </text>
   </item>
   -->
+   <item>
+    <title>Canyon Flythrough</title>
+    <id>canyon-flythrough</id>
+    <image></image>
+    <link>https://youtu.be/gR-OryYvqS4</link>
+    <description>[VIDEO]</description>
+    <text>
+Demo of Canyon in Minecraft: Java Edition
+THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
+
+Checkpoint system is semi-functional, need to fix
+all boosters being omniboosts. Also the rest of the game.
+
+Music:
+       Flight of Fancy (Map 3) - Gareth Coker
+    </text>
+  </item>
 
   <item>
     <title>Cavern Flythrough</title>
