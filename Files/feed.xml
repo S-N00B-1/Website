@@ -31,6 +31,17 @@
   -->
   
   <item>
+    <title>Drop the corpse!</title>
+    <id>h3-physics-2</id>
+    <image></image>
+    <link>https://youtu.be/KTUOFcFqVgw</link>
+    <description>[VIDEO]</description>
+    <text>
+Yep, that's a ragdoll.
+    </text>
+  </item>
+  
+  <item>
     <title>Do you know where the body is?</title>
     <id>h3-physics</id>
     <image></image>
