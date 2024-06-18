@@ -11,7 +11,7 @@ async function displayRSSFeed() {
         const rssFeedList = document.getElementById('rssFeed');
         rssFeedList.dataset.sort = "newest";
 
-        const sortButton = document.getElementsByClassName('sortButton');
+        const sortButton = document.getElementById('sortButton');
         sortButton.title = "Sort by: Oldest";
     
         for (let i = 0; i < items.length; i++) {
@@ -104,7 +104,7 @@ async function RSSFeedSortNewest() {
 function changeSort() {
     try {
         const rssFeedList = document.getElementById('rssFeed');
-        const sortButton = document.getElementsByClassName('sortButton');
+        const sortButton = document.getElementById('sortButton');
         if (rssFeedList.dataset.sort == "newest") {
             RSSFeedSortOldest();
             sortButton.title = "Sort by: Newest";
