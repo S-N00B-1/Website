@@ -10,6 +10,9 @@ async function displayRSSFeed() {
         
         const rssFeedList = document.getElementById('rssFeed');
         rssFeedList.dataset.sort = "newest";
+
+        const sortButton = document.getElementsByClassName('sortButton');
+        sortButton.title = "Sort by: Oldest";
     
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
@@ -101,10 +104,13 @@ async function RSSFeedSortNewest() {
 function changeSort() {
     try {
         const rssFeedList = document.getElementById('rssFeed');
+        const sortButton = document.getElementsByClassName('sortButton');
         if (rssFeedList.dataset.sort == "newest") {
             RSSFeedSortOldest();
+            sortButton.title = "Sort by: Newest";
         } else {
             RSSFeedSortNewest();
+            sortButton.title = "Sort by: Oldest";
         }
     } catch (error) {
         console.error('Unable to change sort:', error)
