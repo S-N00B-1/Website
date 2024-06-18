@@ -14,17 +14,15 @@
 }
 
 .filter {
-  display: block;
-  margin-bottom: 30px;
-  margin-top: -50px;
-  text-align: right;
+  float: right;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .logo {
   width: 60px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   transition: filter 1s;
 }
 
@@ -35,7 +33,6 @@
 }
 
 .Top {
-  display: absolute;
   max-width: 50%;
   margin: auto;
   padding: 0 0px;
@@ -127,9 +124,9 @@ button {
     align-self: end;
   }
   .filter {
-    display: block;
-    margin-bottom: 0px;
+    float: none;
     margin-top: 0px;
+    margin-bottom: 35px;
     text-align: center;
   }
   .Top {
