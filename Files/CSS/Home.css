@@ -108,6 +108,16 @@ pre {
   word-wrap: break-word;
 }
 
+button {
+  transition: color 1s;
+  float: right;
+  background-color: transparent;
+  border: none;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  font-weight: 400;
+  font-size: 17px;
+}
+
 @media only screen and (max-width: 800px) {
   .logodiv {
     max-width: 83%;
@@ -158,6 +168,14 @@ pre {
     color: rgb(131, 216, 205); 
     text-decoration: underline;
   }
+  button {
+    text-decoration: none;
+    color: rgb(106, 194, 182);
+  }
+  button:hover {
+    color: rgb(131, 216, 205); 
+    text-decoration: underline;
+  }
 }
 
 @media (prefers-color-scheme:light) {
@@ -187,6 +205,14 @@ pre {
     color: rgb(78, 161, 150);
   }
   a:hover {
+    color: rgb(131, 216, 205); 
+    text-decoration: underline;
+  }
+  button {
+    text-decoration: none;
+    color: rgb(78, 161, 150);
+  }
+  button:hover {
     color: rgb(131, 216, 205); 
     text-decoration: underline;
   }
