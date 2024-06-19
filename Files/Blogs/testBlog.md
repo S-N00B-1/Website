@@ -11,9 +11,6 @@ A line of text
   * AAAA
   * AAAAA
 
-> Block quote
-> AAAAAA
-> AAAAAAA
-
 [example](http://example.com)
+
 ![spro](https://s-n00b-1.github.io/Website/Files/Images/Icon.png?width=300&amp;height=300)
