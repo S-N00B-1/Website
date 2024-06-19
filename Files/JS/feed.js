@@ -9,12 +9,13 @@ async function displayRSSFeed() {
         const items = xmlDoc.getElementsByTagName('item');
         
         const rssFeedList = document.getElementById('rssFeed');
+        
         rssFeedList.dataset.sort = "newest";
-
-        rssFeedList.dataset.filter = "all";
 
         const sortButton = document.getElementById('sortButton');
         sortButton.title = "Sort by: Oldest";
+
+        rssFeedList.dataset.filter = "all";
 
         const filterButton = document.getElementById('filterButton');
         filterButton.title = "Filter by: Videos";
@@ -117,8 +118,20 @@ function changeSort() {
             RSSFeedSortNewest();
             sortButton.title = "Sort by: Oldest";
         }
+        applyCurrentFilter();
     } catch (error) {
         console.error('Unable to change sort:', error)
+    }
+}
+
+function applyCurrentFilter() {
+    const rssFeedList = document.getElementById('rssFeed');
+    if (rssFeedList.dataset.filter == "all") {
+        filterReset();
+    } else if (rssFeedList.dataset.filter == "videos") {
+        filterVideosOnly();
+    } else { // rssFeedList.dataset.filter == "downloads"
+        filterDownloadsOnly();
     }
 }
 
