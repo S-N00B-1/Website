@@ -44,7 +44,7 @@ async function displayContent() {
                     const listItem = document.createElement('li');
                     const videoId = link.split('/').pop();
                     const embedElement = document.createElement('iframe');
-                    embedElement.src = `https://www.youtube.com/embed/${videoId}`;
+                    embedElement.src = `https://www.youtube.com/embed/${videoId}?cc_load_policy=1&cc_lang_pref=en`;
                     embedElement.width = "100%";
                     embedElement.style.aspectRatio = "16/9";
                     embedElement.style.border = "0";
