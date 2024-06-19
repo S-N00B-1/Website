@@ -74,6 +74,8 @@
 
 .filterButton img {
   transition: filter 1s;
+  width: 17px;
+  height: auto;
 }
 
 body {
