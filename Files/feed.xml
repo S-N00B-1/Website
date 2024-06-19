@@ -40,10 +40,10 @@
   -->
 
   <item>
-    <title>Test Blog</title>
-    <id>test-blog</id>
+    <title>I guess this is a blog now.</title>
+    <id>first-blog</id>
     <image></image>
-    <link>https://s-n00b-1.github.io/Website/Files/Blogs/testBlog.md</link>
+    <link>https://s-n00b-1.github.io/Website/Files/Blogs/firstBlog.md</link>
     <description>[BLOG]</description>
     <text></text>
   </item>

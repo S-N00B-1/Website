@@ -132,8 +132,10 @@ function applyCurrentFilter() {
         filterReset();
     } else if (rssFeedList.dataset.filter == "videos") {
         filterVideosOnly();
-    } else { // rssFeedList.dataset.filter == "downloads"
+    } else if (rssFeedList.dataset.filter == "downloads") { 
         filterDownloadsOnly();
+    } else { //rssFeedList.dataset.filter == "blogs"
+        filterBlogOnly();
     }
 }
 
@@ -146,10 +148,14 @@ function changeFilter() {
             rssFeedList.dataset.filter = "videos"; 
             filterVideosOnly();
         } else if (rssFeedList.dataset.filter == "videos") {
-            filterButton.title = "Filter by: All";
+            filterButton.title = "Filter by: Blogs";
             rssFeedList.dataset.filter = "downloads";
             filterDownloadsOnly();
-        } else { // rssFeedList.dataset.filter == "downloads"
+        } else if (rssFeedList.dataset.filter == "downloads") {
+            filterButton.title = "Filter by: All";
+            rssFeedList.dataset.filter = "blogs";
+            filterBlogsOnly();
+        } else { // rssFeedList.dataset.filter == "blogs"
             filterButton.title = "Filter by: Videos";
             rssFeedList.dataset.filter = "all";
             filterReset();
@@ -192,7 +198,7 @@ function filterDownloadsOnly() {
     }
 }
 
-function filterBlogOnly() {
+function filterBlogsOnly() {
     filterReset();
     const rssFeedList = document.getElementById('rssFeed');
     const liElements = rssFeedList.querySelectorAll('li');
