@@ -11,8 +11,13 @@ async function displayRSSFeed() {
         const rssFeedList = document.getElementById('rssFeed');
         rssFeedList.dataset.sort = "newest";
 
+        rssFeedList.dataset.filter = "all";
+
         const sortButton = document.getElementById('sortButton');
         sortButton.title = "Sort by: Oldest";
+
+        const filterButton = document.getElementById('filterButton');
+        filterButton.title = "Filter by: All";
     
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
@@ -114,5 +119,72 @@ function changeSort() {
         }
     } catch (error) {
         console.error('Unable to change sort:', error)
+    }
+}
+
+function changeFilter() {
+    try {
+        const rssFeedList = document.getElementById('rssFeed');
+        const filterButton = document.getElementById('filterButton');
+        if (rssFeedList.dataset.filter == "all") {
+            filterButton.title = "Filter by: All";
+            rssFeedList.dataset.filter = "videos"; 
+            filterVideosOnly();
+        } else if (rssFeedList.dataset.filter == "videos") {
+            filterButton.title = "Filter by: Videos";
+            rssFeedList.dataset.filter = "downloads";
+            filterDownloadsOnly();
+        } else { // rssFeedList.dataset.filter == "downloads"
+            filterButton.title = "Filter by: Downloads";
+            rssFeedList.dataset.filter = "all";
+            filterReset();
+        }
+    } catch (error) {
+        console.error('Unable to change filter:', error)
+    }
+}
+
+function filterReset() {
+    const rssFeedList = document.getElementById('rssFeed');
+    const liElements = rssFeedList.querySelectorAll('li');
+    for (let i = 0; i < liElements.length; i++) {
+        const liItem = liElements[i];
+        liItem.style.display = '';
+    }
+}
+
+function filterVideosOnly() {
+    filterReset();
+    const rssFeedList = document.getElementById('rssFeed');
+    const liElements = rssFeedList.querySelectorAll('li');
+    for (let i = 0; i < liElements.length; i++) {
+        const liItem = liElements[i];
+        if (!(liItem.textContent.includes('[VIDEO]'))) {
+            liItem.style.display = 'none';
+        }
+    }
+}
+
+function filterDownloadsOnly() {
+    filterReset();
+    const rssFeedList = document.getElementById('rssFeed');
+    const liElements = rssFeedList.querySelectorAll('li');
+    for (let i = 0; i < liElements.length; i++) {
+        const liItem = liElements[i];
+        if (!(liItem.textContent.includes('[DOWNLOAD]'))) {
+            liItem.style.display = 'none';
+        }
+    }
+}
+
+function filterBlogOnly() {
+    filterReset();
+    const rssFeedList = document.getElementById('rssFeed');
+    const liElements = rssFeedList.querySelectorAll('li');
+    for (let i = 0; i < liElements.length; i++) {
+        const liItem = liElements[i];
+        if (!(liItem.textContent.includes('[BLOG]'))) {
+            liItem.style.display = 'none';
+        }
     }
 }

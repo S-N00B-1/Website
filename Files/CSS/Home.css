@@ -72,6 +72,10 @@
   padding-inline-start: inherit;
 } 
 
+.filterButton:hover {
+  transition: filter 1s;
+}
+
 body {
   letter-spacing: 0.1px;
   padding: 0;
@@ -173,6 +177,12 @@ button {
     color: rgb(131, 216, 205); 
     text-decoration: underline;
   }
+  .filterButton {
+    filter: invert(74%) sepia(16%) saturate(904%) hue-rotate(122deg) brightness(93%) contrast(88%);
+  }
+  .filterButton:hover {
+    filter: invert(85%) sepia(32%) saturate(425%) hue-rotate(115deg) brightness(90%) contrast(90%);
+  }
 }
 
 @media (prefers-color-scheme:light) {
@@ -212,5 +222,11 @@ button {
   button:hover {
     color: rgb(131, 216, 205); 
     text-decoration: underline;
+  }
+  .filterButton {
+    filter: invert(57%) sepia(48%) saturate(350%) hue-rotate(123deg) brightness(90%) contrast(96%);
+  }
+  .filterButton:hover {
+    filter: invert(89%) sepia(20%) saturate(709%) hue-rotate(112deg) brightness(91%) contrast(85%);
   }
 }
