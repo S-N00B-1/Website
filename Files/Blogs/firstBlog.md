@@ -8,6 +8,8 @@ for me, I just don't feel the urge to talk about what I'm doing all that much.
 That's not to say I don't talk about what I'm doing, I talk a lot. But not in the, more traditional
 sit-down and write a letter sense.
 
+
+
 What Now?
 =========
 
