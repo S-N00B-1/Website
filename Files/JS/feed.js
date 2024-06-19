@@ -9,7 +9,7 @@ async function displayRSSFeed() {
         const items = xmlDoc.getElementsByTagName('item');
         
         const rssFeedList = document.getElementById('rssFeed');
-        
+
         rssFeedList.dataset.sort = "newest";
 
         const sortButton = document.getElementById('sortButton');
@@ -68,6 +68,7 @@ async function RSSFeedSortOldest() {
             listItem.appendChild(linkElement);
             rssFeedList.appendChild(listItem);
         }
+        applyCurrentFilter();
     } catch (error) {
         console.error('Error sorting RSS feed:', error);
     }
@@ -102,6 +103,7 @@ async function RSSFeedSortNewest() {
             listItem.appendChild(linkElement);
             rssFeedList.appendChild(listItem);
         }
+        applyCurrentFilter();
     } catch (error) {
         console.error('Error sorting RSS feed:', error);
     }
