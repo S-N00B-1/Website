@@ -17,7 +17,7 @@ async function displayRSSFeed() {
         sortButton.title = "Sort by: Oldest";
 
         const filterButton = document.getElementById('filterButton');
-        filterButton.title = "Filter by: All";
+        filterButton.title = "Filter by: Videos";
     
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
@@ -127,15 +127,15 @@ function changeFilter() {
         const rssFeedList = document.getElementById('rssFeed');
         const filterButton = document.getElementById('filterButton');
         if (rssFeedList.dataset.filter == "all") {
-            filterButton.title = "Filter by: All";
+            filterButton.title = "Filter by: Downloads";
             rssFeedList.dataset.filter = "videos"; 
             filterVideosOnly();
         } else if (rssFeedList.dataset.filter == "videos") {
-            filterButton.title = "Filter by: Videos";
+            filterButton.title = "Filter by: All";
             rssFeedList.dataset.filter = "downloads";
             filterDownloadsOnly();
         } else { // rssFeedList.dataset.filter == "downloads"
-            filterButton.title = "Filter by: Downloads";
+            filterButton.title = "Filter by: Videos";
             rssFeedList.dataset.filter = "all";
             filterReset();
         }
