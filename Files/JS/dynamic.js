@@ -63,8 +63,7 @@ async function displayContent() {
                     listItem.appendChild(downloadLink);
                     contentList.appendChild(listItem);
                 } else if (tag === '[BLOG]') {
-                    const blogDiv = document.createElement('div');
-                    blogDiv.className = 'Top'
+                    const blogDiv = document.getElementById('content');
                     
                     const fetchBlog = await fetch(link);
                     const preParsedMD = await fetchBlog.text();
