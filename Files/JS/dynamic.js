@@ -62,16 +62,26 @@ async function displayContent() {
 
                     listItem.appendChild(downloadLink);
                     contentList.appendChild(listItem);
+                } else if (tag === '[BLOG]') {
+                    const blogDiv = document.createElement('div');
+                    blogDiv.className = 'Top'
+                    
+                    const fetchBlog = await fetch(link);
+                    const preParsedMD = await fetchBlog.text();
+
+                    blogDiv.innerHTML = markdown(preParsedMD);
                 }
 
                 try {
-                    const descriptionSpanItem = document.createElement('span');
-                    const descriptionTextHolder = document.createElement('pre');
+                    if (tag != '[BLOG]') {
+                        const descriptionSpanItem = document.createElement('span');
+                        const descriptionTextHolder = document.createElement('pre');
 
-                    descriptionTextHolder.textContent = `${description}`;
+                        descriptionTextHolder.textContent = `${description}`;
 
-                    descriptionSpanItem.appendChild(descriptionTextHolder);
-                    contentList.appendChild(descriptionSpanItem);
+                        descriptionSpanItem.appendChild(descriptionTextHolder);
+                        contentList.appendChild(descriptionSpanItem);
+                    } else {}
                 } catch (error) {
                     console.error('Error fetching entry Description:', error);
                 }
