@@ -40,7 +40,22 @@
   -->
 
   <item>
-    <title>LEM-Logos</title>
+    <title>Battlefield 1 Clips</title>
+    <id>bf1-clips</id>
+    <image></image>
+    <link>https://youtu.be/WRcZ33dagFE</link>
+    <description>[VIDEO]</description>
+    <text>
+Short collection of things I recorded while playing BF1.
+First time doing a video like this, hope it works.
+
+Music:
+       2004 Ur Mall (Demo) - Zan R
+    </text>
+  </item>
+
+  <item>
+    <title>LEM Logos</title>
     <id>LEM-logos</id>
     <image></image>
     <link>https://youtu.be/qm6nmRCzfqk</link>
