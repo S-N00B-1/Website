@@ -38,7 +38,35 @@
     <text></text>
   </item>
   -->
+  
+  <item>
+    <title>I have an idea...</title>
+    <id>reconsole-issue</id>
+    <image></image>
+    <link>https://youtu.be/FqPdy3or0ww</link>
+    <description>[VIDEO]</description>
+    <text>
+...to get all the maps and mash-up
 
+https://github.com/ViolaFlower/Re-Console/issues/62
+      
+Music:
+       Entrance of the Gladiators - Julius Fučík
+
+    </text>
+  </item>
+  
+  <item>
+    <title>Normal Gameplay</title>
+    <id>lethal-aeiou</id>
+    <image></image>
+    <link>https://youtu.be/qLAl7C3ORxg</link>
+    <description>[VIDEO]</description>
+    <text>
+Aeoiu
+    </text>
+  </item>
+  
   <item>
     <title>Kraken Flythrough</title>
     <id>kraken-flythrough</id>
