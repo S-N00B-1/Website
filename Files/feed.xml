@@ -40,6 +40,21 @@
   -->
 
   <item>
+    <title>Improved Thermal physics</title>
+    <id>updated-thermals</id>
+    <image></image>
+    <link>https://youtu.be/MaK20Xunq2E</link>
+    <description>[VIDEO]</description>
+    <text>
+Showcase of updated thermal physics for the java port.
+Changes showcased are meant to be more in-line with
+their console edition counterparts.
+
+THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
+    </text>
+  </item>
+
+  <item>
     <title>Glide Minigame Score Attack in Java</title>
     <id>mobs-flythrough</id>
     <image></image>
