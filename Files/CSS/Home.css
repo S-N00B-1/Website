@@ -3,7 +3,7 @@
   width: 100%;
   margin: auto;
   margin-bottom: 50px;
-  transition: background-color 1s, color 1s;
+  transition: color 1s;
 }
 
 .logodiv {
@@ -151,7 +151,6 @@ button {
 @media (prefers-color-scheme:dark) {
   .header {
     border-bottom: dotted 1px rgb(106, 194, 182);
-    background-color: #050505;
   }
   .logo {
     filter: invert(0);
@@ -196,7 +195,6 @@ button {
 @media (prefers-color-scheme:light) {
   .header {
     border-bottom: dotted 1px rgb(78, 161, 150);
-    background-color: #ffffff;
   }
   .logo {
     filter: invert(1);
