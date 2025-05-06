@@ -40,6 +40,18 @@
   -->
 
   <item>
+    <title>One Block Swimming Demo</title>
+    <id>oneblockswimming</id>
+    <image></image>
+    <link>https://youtu.be/qI0gSdXMHjc</link>
+    <description>[VIDEO]</description>
+    <text>
+Mod:
+       https://modrinth.com/mod/oneblockswimming
+    </text>
+  </item>
+
+  <item>
     <title>Dynamic Elytra FOV Demo</title>
     <id>dynelytrafov</id>
     <image></image>
