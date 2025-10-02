@@ -39,6 +39,20 @@
   </item>
   -->
 
+    <item>
+    <title>The spook has arrived.</title>
+    <id>spro-appear-3</id>
+    <image></image>
+    <link>https://youtu.be/XfuAqLHGRDg</link>
+    <description>[VIDEO]</description>
+    <text>
+Thank you for watching my presentation.
+
+Music:
+       anybody can find love (except you.) - hkmori
+    </text>
+  </item>
+
   <item>
     <title>One Block Swimming Demo</title>
     <id>oneblockswimming</id>
