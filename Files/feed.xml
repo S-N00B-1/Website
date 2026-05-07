@@ -38,25 +38,27 @@
     <text></text>
   </item>
   -->
-
-  <!--
   <item>
-    <title>Obligatory Spook 4: Addendum</title>
-    <id>spook-4</id>
+    <title>Portal: System Failure | Alpha Gameplay</title>
+    <id>portal-sys-fail</id>
     <image></image>
-    <link>https://youtu.be/5AOpSnk5xh0</link>
+    <link>https://youtu.be/rxBdk2szYZ8</link>
     <description>[VIDEO]</description>
     <text>
-Special Containment Procedures
+Quick recording of the System Failure Alpha campaign
+on the P2:CE workshop. (Probably shouldn't use this as
+a walkthrough, I am bad at solving puzzles.)
 
-Sequel to:
-       https://youtu.be/WyK4u5VV61w
+Really enjoying the new P2:CE campaigns, Will have
+to make a video on the Evely Exhibition 5 campaign
+soon.
 
 Music:
-       Funky Town - Lipps Inc.
+       Portal: System Failure Alpha (Original Soundtrack) - PRYZM
+Workshop Page:
+       https://steamcommunity.com/sharedfiles/filedetails/?id=3682076186
     </text>
   </item>
-  -->
 
     <item>
     <title>The spook has arrived.</title>
@@ -71,76 +73,6 @@ Music:
        anybody can find love (except you.) - hkmori
     </text>
   </item>
-
-  <!--
-  <item>
-    <title>One Block Swimming Demo</title>
-    <id>oneblockswimming</id>
-    <image></image>
-    <link>https://youtu.be/qI0gSdXMHjc</link>
-    <description>[VIDEO]</description>
-    <text>
-Mod:
-       https://modrinth.com/mod/oneblockswimming
-    </text>
-  </item>
-
-  <item>
-    <title>Dynamic Elytra FOV Demo</title>
-    <id>dynelytrafov</id>
-    <image></image>
-    <link>https://youtu.be/jKqKn2-JULo</link>
-    <description>[VIDEO]</description>
-    <text>
-Mod:
-       https://modrinth.com/mod/dynelytrafov
-    </text>
-  </item>
-
-  <item>
-    <title>Improved Thermal physics</title>
-    <id>updated-thermals</id>
-    <image></image>
-    <link>https://youtu.be/MaK20Xunq2E</link>
-    <description>[VIDEO]</description>
-    <text>
-Showcase of updated thermal physics for the java port.
-Changes showcased are meant to be more in-line with
-their console edition counterparts.
-
-THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
-    </text>
-  </item>
-
-  <item>
-    <title>Glide Minigame Score Attack in Java</title>
-    <id>mobs-flythrough</id>
-    <image></image>
-    <link>https://youtu.be/HhV3e9O3o5A</link>
-    <description>[VIDEO]</description>
-    <text>
-Showcase of score attack and repaired booster physics.
-THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
-    </text>
-  </item>
-  
-  <item>
-    <title>I have an idea...</title>
-    <id>reconsole-issue</id>
-    <image></image>
-    <link>https://youtu.be/FqPdy3or0ww</link>
-    <description>[VIDEO]</description>
-    <text>
-...to get all the maps and mash-up
-
-https://github.com/ViolaFlower/Re-Console/issues/62
-      
-Music:
-       Entrance of the Gladiators - Julius Fučík
-
-    </text>
-  </item>
-  -->
   
   <item>
     <title>Normal Gameplay</title>
@@ -152,83 +84,6 @@ Music:
 Aeoiu
     </text>
   </item>
-
-  <!--
-  <item>
-    <title>Kraken Flythrough</title>
-    <id>kraken-flythrough</id>
-    <image></image>
-    <link>https://youtu.be/7XxBUSXzPMo</link>
-    <description>[VIDEO]</description>
-    <text>
-Quick flythrough of the Kraken map.
-THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
-
-I haven't really made a proper showcase in a while,
-enjoy.
-    </text>
-  </item>
-
-
-  <item>
-    <title>Improved Booster Visuals in Java</title>
-    <id>glide-boosts-visual</id>
-    <image></image>
-    <link>https://youtu.be/7zVpyDlgEE4</link>
-    <description>[VIDEO]</description>
-    <text>
-Quick showcase of updated visuals for the boosters
-THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
-
-SenseiWells is doing alot of the code side of things now,
-so I'm diverting my attention back to visuals.
-
-Music:
-       Soothing Voyage (Map 2) - Gareth Coker
-    </text>
-  </item>
-  
-  <item>
-    <title>Obligatory Spook 3: Captured</title>
-    <id>spook-3</id>
-    <image></image>
-    <link>https://youtu.be/WyK4u5VV61w</link>
-    <description>[VIDEO]</description>
-    <text>
-Great- great asset for the Xof.
-
-Sequel to:
-       https://youtu.be/ftklrA0xfHw
-
-Music:
-       Happy FROG - Unlistenable
-       Short Elevator Music Loop - BlondPanda
-       Funky Town - Lipps Inc.
-
-Games:
-       Roblox - Doors
-       Lethal Company
-
-Discord:
-       https://discord.gg/k2y43vd
-    </text>
-  </item>
-
-  <item>
-    <title>S_N00B when S_PR0 joins.</title>
-    <id>spook-2</id>
-    <image></image>
-    <link>https://youtu.be/HhNYahuW4Fw</link>
-    <description>[VIDEO]</description>
-    <text>
-S_PR0 Boots boss battle
-
-Music:
-       Biomes Ocean - Yekonaip
-       The Only Thing They Fear Is You -  Mick Gordon
-    </text>
-  </item>
-  -->
 
   <item>
     <title>Battlefield 1 Clips</title>
@@ -244,46 +99,6 @@ Music:
        2004 Ur Mall (Demo) - Zan R
     </text>
   </item>
-
-  <!--
-  <item>
-    <title>LEM Logos</title>
-    <id>LEM-logos</id>
-    <image></image>
-    <link>https://youtu.be/qm6nmRCzfqk</link>
-    <description>[VIDEO]</description>
-    <text>
-Complete set of logos I made for LEM
-I was putting off tumble and glide for awhile, 
-finally finished them today.
-Decided to animate the complete set.
-
-Might go back and re-do some of the anims later.
-    </text>
-  </item>
-
-  <item>
-    <title>The Bucket™ HD Figura Model</title>
-    <id>figura-bucket-HD</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/TheBucketTMHD.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/TheBucketTMHD.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-
-    </text>
-  </item>
-
-  <item>
-    <title>Error Figura Model</title>
-    <id>figura-error</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/Error.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Error.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-
-    </text>
-  </item>
-  -->
 
   <item>
     <title>I guess this is a blog now.</title>
@@ -345,76 +160,7 @@ Music:
        Sparkle - ビクター・ファンタスティック・オーケストラ
     </text>
   </item>
-  <!--
-   <item>
-    <title>Canyon Flythrough</title>
-    <id>canyon-flythrough</id>
-    <image></image>
-    <link>https://youtu.be/gR-OryYvqS4</link>
-    <description>[VIDEO]</description>
-    <text>
-Demo of Canyon in Minecraft: Java Edition
-THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
-
-Checkpoint system is semi-functional, need to fix
-all boosters being omniboosts. Also the rest of the game.
-
-Music:
-       Flight of Fancy (Map 3) - Gareth Coker
-    </text>
-  </item>
-
-  <item>
-    <title>Cavern Flythrough</title>
-    <id>cavern-flythrough</id>
-    <image></image>
-    <link>https://youtu.be/bTdi5xvUTOI</link>
-    <description>[VIDEO]</description>
-    <text>
-Demo of Cavern in Minecraft: Java Edition
-THIS IS NOT PUBLIC, RELEASE DATE UNDECIDED
-
-I've placed in all the thermals and boosts, next up is
-checkpoints and barriers.
-
-Music:
-       Glide (Map 1) - Gareth Coker
-    </text>
-  </item>
-
-  <item>
-    <title>Dynamic Booster Creation</title>
-    <id>dyn-boosts</id>
-    <image></image>
-    <link>https://youtu.be/qfwKXMK2UgU</link>
-    <description>[VIDEO]</description>
-    <text>
-Quick demo of dynamically creating a booster.
-The previous system used command blocks, now boosters
-can be created dynamically, improving map creation alot.
-
-NOTHING SHOWN IS READY FOR PLAYERS.
-THIS IS NOT PUBLIC YET. 
-    </text>
-  </item>
-
-  <item>
-    <title>Wait, what's the item set?</title>
-    <id>high-power</id>
-    <image></image>
-    <link>https://youtu.be/T-b9g-h-QMk</link>
-    <description>[VIDEO]</description>
-    <text>
-NO... NO NO NO NO NO NO NO.
-I AM NOT DOING THIS. LARGE INVENTORY HIGH POWER.
-NO. 
-
-Server:
-      legacyminigames.net
-    </text>
-  </item>
-  -->
-
+ 
   <item>
     <title>New Weapon License</title>
     <id>drg-voiceover-2</id>
@@ -443,60 +189,6 @@ Credits:
    Breaking Bad
     </text>
   </item>
-  <!--
-  <item>
-    <title>Remastering a Minecraft Battle map</title>
-    <id>remastering-battle-map</id>
-    <image></image>
-    <link>https://youtu.be/nCu2vGHOd-I</link>
-    <description>[VIDEO]</description>
-    <text>
-A few months ago I remastered the "Dig" map from
-the Battle minigame on Consoles. This is a walk through
-of some of my thought process .
-
-Music:
-       Biomes: Ocean - https://www.youtube.com/watch?v=0HRWLm4qihM
-       Ave Meowria - https://www.youtube.com/watch?v=65y_K59s0f0
-       Biomes: Plains - https://www.youtube.com/watch?v=65SxFsYBhB0
-       Eleven - https://www.youtube.com/watch?v=l9nULbHnzfk
-       Ave Meowria - https://www.youtube.com/watch?v=65y_K59s0f0
-Shout-outs:
-       https://www.legacyminigames.net/
-    </text>
-  </item>
-  <item>
-    <title>Ave Meowria</title>
-    <id>ave-meowria</id>
-    <image></image>
-    <link>https://youtu.be/65y_K59s0f0</link>
-    <description>[VIDEO]</description>
-    <text>
-47 spent all day watching cat videos before the assignment
-
-Music:
-       Ave Maria - In MeowSynth using LMMS
-    </text>
-  </item>
-  <item>
-    <title>Obligatory Spook 2</title>
-    <id>halloween-2</id>
-    <image></image>
-    <link>https://youtu.be/ftklrA0xfHw</link>
-    <description>[VIDEO]</description>
-    <text>
-Please get me out of! FUNKY TOWN!
-
-Sequel to:
-      https://youtu.be/TvlhdY5f9kU
-Music:
-      Funky Town - Lipps Inc.
-Games:
-      Minecraft - legacyminigames.net
-      Roblox - Doors
-    </text>
-  </item>
-  -->
   
   <item>
     <title>Promotion Granted</title>
@@ -508,49 +200,6 @@ Games:
 WE'RE RICH! WE'RE RICH!
     </text>
   </item>
-  <!--
-  <item>
-    <title>Improved Booster Mechanics in Java</title>
-    <id>glide-showcase-2</id>
-    <image></image>
-    <link>https://youtu.be/0doAUwszoAg</link>
-    <description>[VIDEO]</description>
-    <text>
-Quick demo of Glide Boosters in java Minecraft.
-NOTHING SHOWN IS READY FOR PLAYERS.
-THIS IS NOT PUBLIC YET. 
-
-Music:
-      Glide (Map 1) - Gareth Coker
-    </text>
-  </item>
-  <item>
-    <title>Glide Minigame Test in Java</title>
-    <id>glide-showcase-1</id>
-    <image></image>
-    <link>https://youtu.be/9T6f5PQkH6s</link>
-    <description>[VIDEO]</description>
-    <text>
-Quick demo of some glide assets in java Minecraft.
-The visuals of the thermals and the boosters are entirely 
-vanilla, so when paired with a serverside mod vanilla clients
-should be able to join fine. THIS IS NOT PUBLIC YET.
-    </text>
-  </item>
-  <item>
-    <title>LEM Voice Chat</title>
-    <id>live-min3mast3r-reaction</id>
-    <image></image>
-    <link>https://youtu.be/mUcuqX7EVeg</link>
-    <description>[VIDEO]</description>
-    <text>
-Live Min3Mast3r Reaction
-
-Music:
-      Junior Street Mario Hoops 3 on 3
-    </text>
-  </item>
-  -->
 
   <item>
     <title>Outride Obama Widescreen Mod Release</title>
@@ -565,48 +214,7 @@ Instruction:
       Extract and replace original Outride obama 'data.win' with Widescreen mod 'data.win'
     </text>
   </item>
-  <!--
-  <item>
-    <title>Glide Ghost Figura Avatar</title>
-    <id>figura-glide-shost</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/GlideGhost.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/GlideGhost.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>Yoda Figura Avatar</title>
-    <id>figura-yoda</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/Yoda.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Yoda.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>Baby Ghast Figura Avatar</title>
-    <id>figura-ghast</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/BabyGhast.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/BabyGhast.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>LEM Trailer</title>
-    <id>LEM-trailer</id>
-    <image></image>
-    <link>https://youtu.be/dwQI2Pq77TU</link>
-    <description>[VIDEO]</description>
-    <text>
-https://youtu.be/pHv-Na9p1YA
-    </text>
-  </item>
-  -->
+  
   <item>
     <title>I Participated in a Minecraft Render Challenge</title>
     <id>render-challenge</id>
@@ -637,68 +245,7 @@ SFX:
       https://freesound.org/people/klankbeeld/
     </text>
   </item>
-  <!--
-  <item>
-    <title>Gordon Freeman Figura Avatar</title>
-    <id>figura-freeman</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/Gordon.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Gordon.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>Default Skins Figura Avatar</title>
-    <id>figura-skipack</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/DefaultSkins.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/DefaultSkins.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>G-Man Figura Avatar</title>
-    <id>figura-gman</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/G-Man.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/G-Man.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>Mapbot Figura Avatar</title>
-    <id>figura-mapbot</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/MapbotV2.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/MapbotV2.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>Rana Figura Avatar</title>
-    <id>figura-classic-rana</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/RanaImage.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Rana.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  <item>
-    <title>Classic Steve Figura Avatar</title>
-    <id>figura-classic-steve</id>
-    <image>https://s-n00b-1.github.io/Website/Files/Uploads/SteveImage.png</image>
-    <link>https://s-n00b-1.github.io/Website/Files/Uploads/Steve.zip</link>
-    <description>[DOWNLOAD]</description>
-    <text>
-    
-    </text>
-  </item>
-  -->
+  
   <item>
     <title>The Machine</title>
     <id>the-machine</id>
