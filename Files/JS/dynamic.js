@@ -14,12 +14,12 @@ async function displayContent() {
         
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
-            const tag = item.getElementsByTagName('description')[0].textContent.trim();
+            const tag = item.getElementsByTagName('category')[0].textContent.trim();
             const title = item.getElementsByTagName('title')[0].textContent;
             const id = item.getElementsByTagName('id')[0].textContent;
             const link = item.getElementsByTagName('link')[0].textContent;
             const image = item.getElementsByTagName('image')[0].textContent;
-            const description = item.getElementsByTagName('text')[0].textContent;
+            const description = item.getElementsByTagName('description')[0].textContent;
             
             if (window.location.href.includes(id)) {
                 document.title = `S_N00B | ${title}`;

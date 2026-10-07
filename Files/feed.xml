@@ -10,12 +10,12 @@
   <item>
     <title>Title</title>
     <id>clean-title</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/clean-title</image>
     <link></link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 
-    </text>
+    </description>
   </item>
 
   <item>
@@ -23,10 +23,10 @@
     <id>clean-title</id>
     <image></image>
     <link>https://s-n00b-1.github.io/Website/Files/Uploads/</link>
-    <description>[DOWNLOAD]</description>
-    <text>
+    <category>[DOWNLOAD]</category>
+    <description>
 
-    </text>
+    </description>
   </item>
 
   <item>
@@ -34,17 +34,46 @@
     <id>clean-title</id>
     <image></image>
     <link>https://s-n00b-1.github.io/Website/Files/Blogs/</link>
-    <description>[BLOG]</description>
-    <text></text>
+    <category>[BLOG]</category>
+    <description></description>
   </item>
   -->
   <item>
+    <title>Barrels</title>
+    <id>drg-voiceover-3</id>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/drg-voiceover-3.png</image>
+    <link>https://youtu.be/rmVVFqPvBRo</link>
+    <category>[VIDEO]</category>
+    <description>
+Management hates him, find out how this one dwarf
+cost DRG thousands.
+    </description>
+  </item>
+
+  <item>
+    <title>The Wall Mounting Fiasco</title>
+    <id>wall-mount</id>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/wall-mount.png</image>
+    <link>https://youtu.be/daxrGPDEN60</link>
+    <category>[VIDEO]</category>
+    <description>
+The server was blocking right-click interactions with the
+smithing table, which stopped me from wall mounting the
+sign, which for some reason isn't a state you can select
+with the debug stick.
+
+Music:
+       Thank You for Your Patience - Leon Riskin
+    </description>
+  </item>
+
+  <item>
     <title>Portal: System Failure | Alpha Gameplay</title>
     <id>portal-sys-fail</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/portal-sys-fail.png</image>
     <link>https://youtu.be/rxBdk2szYZ8</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Quick recording of the System Failure Alpha campaign
 on the P2:CE workshop. (Probably shouldn't use this as
 a walkthrough, I am bad at solving puzzles.)
@@ -57,7 +86,7 @@ Music:
        Portal: System Failure Alpha (Original Soundtrack) - PRYZM
 Workshop Page:
        https://steamcommunity.com/sharedfiles/filedetails/?id=3682076186
-    </text>
+    </description>
   </item>
 
     <item>
@@ -65,140 +94,131 @@ Workshop Page:
     <id>spro-appear-3</id>
     <image></image>
     <link>https://youtu.be/XfuAqLHGRDg</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Thank you for watching my presentation.
 
 Music:
        anybody can find love (except you.) - hkmori
-    </text>
+    </description>
   </item>
   
   <item>
     <title>Normal Gameplay</title>
     <id>lethal-aeiou</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/lethal-aeiou.png</image>
     <link>https://youtu.be/qLAl7C3ORxg</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Aeoiu
-    </text>
+    </description>
   </item>
 
   <item>
     <title>Battlefield 1 Clips</title>
     <id>bf1-clips</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/bf1-clips.png</image>
     <link>https://youtu.be/WRcZ33dagFE</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Short collection of things I recorded while playing BF1.
 First time doing a video like this, hope it works.
 
 Music:
        2004 Ur Mall (Demo) - Zan R
-    </text>
-  </item>
-
-  <item>
-    <title>I guess this is a blog now.</title>
-    <id>first-blog</id>
-    <image></image>
-    <link>https://s-n00b-1.github.io/Website/Files/Blogs/firstBlog.md</link>
-    <description>[BLOG]</description>
-    <text></text>
+    </description>
   </item>
   
   <item>
     <title>And something isn't right.</title>
     <id>buckshot-1940</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/buckshot-1940.png</image>
     <link>https://youtu.be/pJRGC1pxnAU</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 The year is One thousand nine hundred and forty.
 
 Music:
        1940 (Amplive Remix) - The Submarines
-    </text>
+    </description>
   </item>
   
   <item>
     <title>Drop the corpse!</title>
     <id>h3-physics-2</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/h3-physics-2.png</image>
     <link>https://youtu.be/KTUOFcFqVgw</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Yep, that's a ragdoll.
-    </text>
+    </description>
   </item>
   
   <item>
     <title>Do you know where the body is?</title>
     <id>h3-physics</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/h3-physics.png</image>
     <link>https://youtu.be/EQkN3NIzzzs</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 If I didn't know any better, I would assume this was source.
-    </text>
+    </description>
   </item>
 
   <item>
     <title>Battlefield 1</title>
     <id>bf1-jazz</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/bf1-jazz.png</image>
     <link>https://youtu.be/EzTQpq8N6Ws</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Got Battlefield 1 about 3 months ago.
 Been having fun with it, though I don't think the sheer
 horror of my actions has set in yet.
 
 Music:
        Sparkle - ビクター・ファンタスティック・オーケストラ
-    </text>
+    </description>
   </item>
  
   <item>
     <title>New Weapon License</title>
     <id>drg-voiceover-2</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/drg-voiceover-2.png</image>
     <link>https://youtu.be/EZJsmPsmupk</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 It's not all about the Morkite Miners.
 
 Music: 
        Meet The Mets
-    </text>
+    </description>
   </item>
 
   <item>
     <title>The Scientist who cooks</title>
     <id>scientist-who-cooks</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/scientist-who-cooks.png</image>
     <link>https://youtu.be/xv75trToVno</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 I am the scientist who cooks.
 
 Credits:
    Original Video - https://www.youtube.com/watch?v=_CJ0UNq4Zhc
    Breaking Bad
-    </text>
+    </description>
   </item>
   
   <item>
     <title>Promotion Granted</title>
     <id>drg-voiceover</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/drg-voiceover.png</image>
     <link>https://youtu.be/801VAIvdP6I</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 WE'RE RICH! WE'RE RICH!
-    </text>
+    </description>
   </item>
 
   <item>
@@ -206,44 +226,44 @@ WE'RE RICH! WE'RE RICH!
     <id>widescreen-mod</id>
     <image></image>
     <link>https://youtu.be/0bnhk3NH7t8</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Download:
       https://s-n00b-1.github.io/Website/Files/Uploads/OOWM.zip
 Instruction:
       Extract and replace original Outride obama 'data.win' with Widescreen mod 'data.win'
-    </text>
+    </description>
   </item>
   
   <item>
     <title>I Participated in a Minecraft Render Challenge</title>
     <id>render-challenge</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/render-challenge.png</image>
     <link>https://youtu.be/VwBqvjVvHyU</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 I Participated in a Minecraft Render Challege, here were the results.
 
 Huge thanks to Chicoh for hosting https://youtu.be/9BexTPjjdGk
 
 Music:
       Biomes Ocean - Yekonaip
-    </text>
+    </description>
   </item>
   <item>
     <title>Warden &amp; Sniffer Plushie</title>
     <id>plushies</id>
     <image></image>
     <link>https://youtube.com/shorts/X9_xzVJAAPo</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 Little plushies in the woods. #shorts 
 
 Music:
       None
 SFX:
       https://freesound.org/people/klankbeeld/
-    </text>
+    </description>
   </item>
   
   <item>
@@ -251,23 +271,23 @@ SFX:
     <id>the-machine</id>
     <image></image>
     <link>https://youtu.be/gAxLNgMzAGA</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
 I honestly don't know.
 
 Music:
       None
-    </text>
+    </description>
   </item>
   <item>
     <title>Soon™</title>
     <id>soontm</id>
-    <image></image>
+    <image>https://s-n00b-1.github.io/Website/Files/Images/Tumbnails/soontm.png</image>
     <link>https://youtu.be/cPHWg9ovr6A</link>
-    <description>[VIDEO]</description>
-    <text>
+    <category>[VIDEO]</category>
+    <description>
     
-    </text>
+    </description>
   </item>
 </channel>
 

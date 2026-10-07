@@ -22,7 +22,7 @@ async function displayRSSFeed() {
     
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
-            const tag = item.getElementsByTagName('description')[0].textContent;
+            const tag = item.getElementsByTagName('category')[0].textContent;
             const title = item.getElementsByTagName('title')[0].textContent;
             const id = item.getElementsByTagName('id')[0].textContent;
         
@@ -57,7 +57,7 @@ async function RSSFeedSortOldest() {
         }
         for (let i = items.length - 1; i >= 0; i--) {
             const item = items[i];
-            const tag = item.getElementsByTagName('description')[0].textContent;
+            const tag = item.getElementsByTagName('category')[0].textContent;
             const title = item.getElementsByTagName('title')[0].textContent;
             const id = item.getElementsByTagName('id')[0].textContent;
         
@@ -92,7 +92,7 @@ async function RSSFeedSortNewest() {
         }
         for (let i = 0; i < items.length; i++) {
             const item = items[i];
-            const tag = item.getElementsByTagName('description')[0].textContent;
+            const tag = item.getElementsByTagName('category')[0].textContent;
             const title = item.getElementsByTagName('title')[0].textContent;
             const id = item.getElementsByTagName('id')[0].textContent;
         
