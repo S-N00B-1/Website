@@ -31,15 +31,6 @@ async function displayContent() {
                 contentList.appendChild(lineBreak);
                 contentList.appendChild(lineBreak);
 
-                const listItemImage = document.createElement('li');
-                const previewImage = document.createElement('img');
-                
-                previewImage.src = image;
-                previewImage.className = 'image';
-                
-                listItemImage.appendChild(previewImage);
-                contentList.appendChild(listItemImage)
-
                 if (tag === '[VIDEO]') {
                     const listItem = document.createElement('li');
                     const videoId = link.split('/').pop();
